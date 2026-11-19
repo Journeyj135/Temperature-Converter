@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-font: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp-container {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  font-weight: 100;
+  border: 1px solid black;
+
+  width: 400px;
+  padding: 20px;
+}
+
+.celsius,
+.Fahrenheit,
+.kelvin {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
